@@ -135,14 +135,14 @@ body {
 .dropdown2:hover .dropbtn2 {background-color: #868686;}
 .dropdown2:hover .dropdown-content2 {display: block;}
 
-.content {
-  margin-top: 50px; 
-  margin-bottom: 50px;
+.content-box {
+  margin-top: 35px; 
+  margin-bottom: 35px;
   margin-left: 18%;
   margin-right: 18%;
   padding: 5%;
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
   font-family: 'Montserrat', sans-serif;
   font-size: 11pt;
   line-height: 250%;
@@ -177,6 +177,11 @@ body {
 
 .s21-navbar button:hover {background-color: #353535; color: #f1f1f1;}
 
+.content {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
 h1 {
   text-decoration: underline;
 }
@@ -184,6 +189,26 @@ h1 {
 h2 {
   font-size: 1.3em;
 }
+
+.prevBtn {
+  float: left;
+}
+
+.nextBtn {
+  float: right;
+}
+
+.next-prev-bar button{
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  font-family:'Montserrat', sans-serif;
+  font-size: 8.5pt;
+  color: #000;
+}
+
+.next-prev-bar button:hover {background-color: #f1f1f1;}
 
 #wchospital {
   margin: 30px;
