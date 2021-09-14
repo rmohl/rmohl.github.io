@@ -219,3 +219,34 @@ h2 {
   width: 45%;
   border: 5px solid #353535;
 }
+
+#dr-emily-stowe {
+  margin: 30px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  float: right;
+  width: 45%;
+  border: 5px solid #353535;
+}
+
+#covax {
+ width: 70%;
+}
+
+#verto {
+ width: 28%;
+}
+
+#winery-trip {
+  margin-top: 20px;
+  width: 100%;
+  border: 5px solid #353535;
+}
+
+#first-day {
+  width: 100%;
+  border: 5px solid #353535;
+}
+
+
