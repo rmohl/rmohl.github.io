@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="media/icon.jpg"/>
+    <title>Rachael's Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+      <!-- NAVBAR -->
+
+      <div class="navbar">
+
+        <div class="op1">
+          <a href="index.html"><button class="homeBtn">Home</button></a>
+        </div>
+
+        <div class="op2">
+          <a href="resume-F21.pdf"><button class="resumeBtn">Resume</button></a>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Co-op Work Term Reports</button>
+          <div class="dropdown-content">
+            <a href="s21-overview.html">Summer 2021</a>
+            <a href="f21-overview.html">Fall 2021</a>
+          </div>
+        </div>
+
+        <div class="dropdown2">
+          <button class="dropbtn2">Links</button>
+          <div class="dropdown-content2">
+            <a href="https://github.com/rmohl" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/rachael-mohl" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PAGE CONTENT -->
+
+      <div class="content-box">
+
+        <div class="s21-navbar">
+          <a href="f21-overview.html"><button>Overview</button></a>
+          <a href="f21-about-employer.html"><button>About Employer</button></a>
+          <a href="f21-job-desc.html"><button id="selectedBtn">Job Description</button></a>
+          <a href="f21-learning-goals.html"><button>Learning Goals</button></a>
+          <a href="f21-ack+con.html"><button>Acknowledgements + Conclusion</button></a>
+        </div>
+
+        <div class="content">
+            <h1> JOB DESCRIPTION </h1>
+            <p> 
+                As a software developer at Magnet Forensics, I was required to help out on the Automate team by working on assigned tickets, creating tests for each ticket I worked on, creating tickets for new issues I came across, and helping with any tasks the team needed an extra hand on. I worked on a variety of different tickets throughout my work term. The first big ticket I completed called for me to update Automate’s file browser so that it automatically refreshed files without the user having to restart the program. I created JavaScript code that's purpose was to traverse a file system in order to get important file information. I also used simple Redux for the first time, and was able to refactor an existing reducer in order to update the program’s state, specifically changing how the file browser functioned.
+                <br>
+                <a href="https://seeklogo.com/vector-logo/330541/javascript" target="_blank"><img id="js" src="media/javascript.png" title="JavaScript logo"></a>
+                <a href="https://commons.wikimedia.org/wiki/File:Redux.png" target="_blank"><img id="redux" src="media/redux.png" title="Redux logo"></a>
+                <a href="https://www.magnetforensics.com/products/magnet-automate/" target="_blank"><img id="automate" src="media/automate.jpg" title="Product banner for Magnet Forensics' Automate"></a>
+                <br>
+                Along with working on and learning more about front-end development, I was also given opportunities to work on tickets that involved back-end development using the functional programming language Clojure. Though I did not work on any tickets that directly involved it, I also got exposure to what programming with C# is like. Throughout my work term I learned a lot about testing, as at Magnet Forensics programmers are required to write their own tests for every ticket they work on. I got experience creating tests using the Jest library, Clojure unit testing, end-to-end testing using Cypress, manual Build Verification Tests, and simple API testing using Postman. In addition to this, I was able to learn about commonly used project management tools like AGILE methodologies, Jira, Git and Gerrit, and Jenkins. Finally, I also got some exposure to working with databases, specifically using SQLite.
+            </p>
+        </div>
+
+        <div class="next-prev-bar">
+            <a href="f21-about-employer.html"><button class="prevBtn"><---&emsp;<u>About Employer</u></button></a>
+            <a href="f21-learning-goals.html"><button class="nextBtn"><u>Learning Goals</u>&emsp;---></button></a>
+        </div>
+
+      </div>
+
+  </body>
+
+</html>
