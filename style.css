@@ -322,7 +322,7 @@ h2 {
   position: relative;
   background: transparent;/*linear-gradient(-135deg, #008b8b, #000);*/
   z-index: 0;
-  width: 98.25vw;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
@@ -334,7 +334,7 @@ h2 {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 98.25vw;
+  width: 100vw;
   height: 100vh;
 /*  text-align: center;*/
   color: white;
