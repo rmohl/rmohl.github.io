@@ -295,13 +295,13 @@ h2 {
 }
 
 #js {
- width: 24%;
+ width: 23%;
  margin-top: 20px;
  margin-bottom: 20px; 
 }
 
 #redux {
- width: 26%;
+ width: 25%;
  margin-top: 20px;
  margin-bottom: 20px; 
 }
@@ -311,7 +311,7 @@ h2 {
   margin-right: 0px;
   margin-top: 20px;
   margin-bottom: 20px; 
-  width: 47%;
+  width: 46%;
   border: 5px solid #262f3e;
   border-radius: 20px;
 }
