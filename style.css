@@ -320,7 +320,7 @@ h2 {
   margin-top: 0px;
   padding: 0;
   position: relative;
-  background: transparent;/*linear-gradient(-135deg, #008b8b, #000);*/
+  background: transparent;
   z-index: 0;
   width: 100vw;
   height: 100vh;
