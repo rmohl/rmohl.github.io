@@ -171,6 +171,7 @@ body {
   font-size: 10pt;
   padding: 20px;
   border-radius: 10px;
+  font-weight: bold;
 }
 
 #selectedBtn {
