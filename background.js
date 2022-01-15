@@ -69,7 +69,7 @@ function Ball(x, y, velX, velY, radius, colour) {
 		}
 
 		if (this.x + this.radius + this.velX > canvas.width || 
-			this.x - this.radius + this.velX <= 0) {
+			this.x - this.radius + this.velX < 0) {
 			this.velX = -this.velX * xFriction;
 		}
 
