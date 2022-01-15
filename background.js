@@ -69,7 +69,7 @@ function Ball(x, y, velX, velY, radius, colour) {
 		}
 
 		if (this.x + this.radius + this.velX > canvas.width || 
-			this.x - this.radius <= 0) {
+			this.x - this.radius + this.velX <= 0) {
 			this.velX = -this.velX * xFriction;
 		}
 
@@ -129,8 +129,8 @@ function init() {
 		let radius = randomIntInRange(10, 60);
 		let x = randomIntInRange(radius, canvas.width - radius);
 		let y = randomIntInRange(0, canvas.height - radius);
-		let velX = (Math.random() - 0.5) * 1;
-		let velY = (Math.random() - 0.5) * 1;
+		let velX = randomIntInRange(-2, 2);
+		let velY = randomIntInRange(-2, 2);
 		let colour = randomColour(colourArray);
 		ballArray.push(new Ball(x, y, velX, velY, radius, colour));
 	}	
