@@ -14,4 +14,5 @@ Description: My personal website! Has links to my resume, GitHub, LinkedIn, and 
 
 ## Future Updates
 
-Would like to add a personal projects page in the future (could include both programs I've made and creations from my personal hobbies).
+- Would like to add a personal projects page in the future (could include both programs I've made and creations from my personal hobbies)
+- Want to make home page more interactive - maybe implemement a leaderboard system keeping track of highest number of ball bounces in a row
