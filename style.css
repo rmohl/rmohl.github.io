@@ -332,21 +332,15 @@ h2 {
   font-family: 'Oswald', sans-serif;
   position: absolute;
   top: 15%;
-  left: 5%;
+  left: 2%;
   right: 0;
   bottom: 0;
-  width: 50vw;
-  height: 100vh;
-/*  text-align: center;*/
+  width: 90%;
+  height: 100%;
   color: white;
-/*  transform: scale(1.2);*/
-/*  display: flex;
-  align-items: center;
-  justify-content: center;*/
 }
 
 #hero-text > div {
-  /*padding: 25px;*/
   font-weight: 500;
   max-width: 90%; 
   margin: 0 auto; 
