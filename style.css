@@ -385,3 +385,34 @@ h2 {
   border: 5px solid #262f3e;
   border-radius: 20px;
 }
+
+#python {
+  width: 17%;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+ }
+ 
+ #pytorch {
+  width: 13%;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+ }
+ 
+ #ros {
+   margin-left: 25px;
+   margin-right: 0px;
+   margin-top: 20px;
+   margin-bottom: 20px; 
+   width: 55%;
+ }
+
+#nrc {
+  margin-top: 25px;
+  width: 98%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
