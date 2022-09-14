@@ -158,14 +158,14 @@ body {
   box-shadow: 2px 2px 20px #000;
 }
 
-.s21-navbar {
+.coop-report-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
 }
 
-.s21-navbar button {
+.coop-report-navbar button {
   border: none;
   font-family: 'Roboto', sans-serif;
   font-size: 10pt;
@@ -179,7 +179,7 @@ body {
   color: #f1f1f1;
 }
 
-.s21-navbar button:hover {background-color: #293241; color: #f1f1f1;}
+.coop-report-navbar button:hover {background-color: #293241; color: #f1f1f1;}
 
 .content {
   margin-top: 50px;
@@ -214,6 +214,8 @@ h2 {
 }
 
 .next-prev-bar button:hover {background-color: #f1f1f1;}
+
+/* S21 */
 
 #wchospital {
   margin: 30px;
@@ -263,6 +265,8 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* F21 */
 
 #magnetlogo {
   margin: 30px;
@@ -349,4 +353,35 @@ h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 18pt;
   line-height: 2;
+}
+
+/* S22 */
+
+#thorn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 98%;
+  border: 5px solid #262f3e;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#uog-engineering {
+  width: 98%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mo-big {
+  margin: 30px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  float: right;
+  width: 25%;
+  border: 5px solid #262f3e;
+  border-radius: 20px;
 }
