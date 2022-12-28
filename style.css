@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  background-color: #303847;   
+  background-color: #303847;
   top: 0;
   left: 0;
   box-shadow: 1px 1px 18px #000;
@@ -33,7 +33,7 @@ body {
   font-size: 15px;
 }
 
-.op1:hover .homeBtn {background-color: #262f3e;}  
+.op1:hover .homeBtn {background-color: #262f3e;}
 
 .op2 {
   position: relative;
@@ -138,11 +138,11 @@ body {
 }
 
 .dropdown-content2 a:hover {background-color: #f1f1f1;}
-.dropdown2:hover .dropbtn2 {background-color: #262f3e;}   
+.dropdown2:hover .dropbtn2 {background-color: #262f3e;}
 .dropdown2:hover .dropdown-content2 {display: block;}
 
 .content-box {
-  margin-top: 35px; 
+  margin-top: 35px;
   margin-bottom: 35px;
   margin-left: 18%;
   margin-right: 18%;
@@ -175,7 +175,7 @@ body {
 }
 
 #selectedBtn {
-  background-color: #293241; 
+  background-color: #293241;
   color: #f1f1f1;
 }
 
@@ -215,6 +215,27 @@ h2 {
 
 .next-prev-bar button:hover {background-color: #f1f1f1;}
 
+#ack-con-first-pic {
+  margin: 20px;
+  margin-top: 50px;
+  width: 98%;
+  border: 5px solid #262f3e;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ack-con-next-pic {
+  margin: 20px;
+  width: 98%;
+  border: 5px solid #262f3e;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* S21 */
 
 #wchospital {
@@ -232,7 +253,7 @@ h2 {
   margin: 30px;
   margin-right: 0px;
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   float: right;
   width: 45%;
   border: 5px solid #262f3e;
@@ -245,25 +266,6 @@ h2 {
 
 #verto {
  width: 28%;
-}
-
-#winery-trip {
-  margin: 20px;
-  width: 98%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#first-day {
-  width: 98%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* F21 */
@@ -292,7 +294,7 @@ h2 {
   margin: 30px;
   margin-right: 0px;
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   float: right;
   width: 50%;
   border: 5px solid #262f3e;
@@ -302,20 +304,20 @@ h2 {
 #js {
  width: 23%;
  margin-top: 20px;
- margin-bottom: 20px; 
+ margin-bottom: 20px;
 }
 
 #redux {
  width: 25%;
  margin-top: 20px;
- margin-bottom: 20px; 
+ margin-bottom: 20px;
 }
 
 #automate {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   width: 46%;
   border: 5px solid #262f3e;
   border-radius: 20px;
@@ -344,8 +346,8 @@ h2 {
 
 #hero-text > div {
   font-weight: 500;
-  max-width: 90%; 
-  margin: 0 auto; 
+  max-width: 90%;
+  margin: 0 auto;
   font-size: 6rem;
 }
 
@@ -390,22 +392,22 @@ h2 {
   width: 17%;
   margin-right: 15px;
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
  }
- 
+
  #pytorch {
   width: 13%;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
  }
- 
+
  #ros {
    margin-left: 25px;
    margin-right: 0px;
    margin-top: 20px;
-   margin-bottom: 20px; 
+   margin-bottom: 20px;
    width: 55%;
  }
 
