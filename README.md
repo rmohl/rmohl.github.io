@@ -8,7 +8,7 @@ Creation Tools: VS Code
 
 Created: Sept 10, 2021
 
-Last Updated: Dec 27, 2022
+Last Updated: May 15, 2023
 
 Description: My personal website! Has links to my resume, GitHub, LinkedIn, and pages for my co-op work term reports.
 
