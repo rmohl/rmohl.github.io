@@ -6,6 +6,42 @@ body {
   background-color: #293241;
 }
 
+/* INDEX.HTML */
+
+#hero {
+  margin-top: 0px;
+  padding: 0;
+  position: relative;
+  background: transparent;
+  z-index: 0;
+  width: 100vw;
+  height: 93.5vh;
+  overflow: hidden;
+}
+
+#hero-text {
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  width: 100%;
+  height: 50%;
+  color: white;
+}
+
+#hero-text > div {
+  font-weight: 500;
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 6rem;
+}
+
+#hero-baby-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+  line-height: 2;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -217,14 +253,15 @@ h2 {
 
 #js {
  width: 23%;
+
 }
 
 #redux {
- width: 25%;
+ width: 26%;
 }
 
 #automate {
-  width: 46%;
+  width: 47%;
   border: 5px solid #262f3e;
   border-radius: 20px;
 }
@@ -245,6 +282,6 @@ h2 {
 
  #ros {
    width: 55%;
-   margin-left: 2%;
+   margin-left: 3%;
    margin-right: 2%;
  }
