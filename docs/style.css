@@ -6,17 +6,13 @@ body {
   background-color: #293241;
 }
 
+/* NAVBAR */
+
 .navbar {
   background-color: #303847;
   top: 0;
   left: 0;
   box-shadow: 1px 1px 18px #000;
-}
-
-.op1 {
-  position: relative;
-  display: inline-block;
-  z-index: 1;
 }
 
 .navBtn {
@@ -34,12 +30,6 @@ body {
 }
 
 .navBtn:hover {background-color: #262f3e;}
-
-.op2 {
-  position: relative;
-  display: inline-block;
-  z-index: 1;
-}
 
 .dropdown {
   position: relative;
@@ -67,36 +57,11 @@ body {
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {display: block;}
 
-.dropdown2 {
-  position: relative;
-  display: inline-block;
-  z-index: 1;
-}
+#dropdown-coop:hover .dropdown-content {display: block;}
+#dropdown-links:hover .dropdown-content {display: block;}
 
-.dropdown-content2 {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 186px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin-left: 10px;
-  margin-right: 10px;
-  z-index: 1;
-}
-
-.dropdown-content2 a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-}
-
-.dropdown-content2 a:hover {background-color: #f1f1f1;}
-.dropdown2:hover .dropdown-content2 {display: block;}
+/* CONTENT PAGES */
 
 .content-box {
   margin-top: 35px;

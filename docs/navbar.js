@@ -4,15 +4,11 @@ document.write(`
 
 <div class="navbar">
 
-    <div class="op1">
-        <a href="index.html"><button class="navBtn">Home</button></a>
-    </div>
+    <a href="index.html"><button class="navBtn">Home</button></a>
 
-    <div class="op2">
-        <a href="media/resume.pdf"><button class="navBtn">Resume</button></a>
-    </div>
+    <a href="media/resume.pdf"><button class="navBtn">Resume</button></a>
 
-    <div class="dropdown">
+    <div class="dropdown" id="dropdown-coop">
         <button class="navBtn">Co-op Work Term Reports</button>
         <div class="dropdown-content">
             <a href="s21-overview.html">Summer 2021</a>
@@ -21,9 +17,9 @@ document.write(`
         </div>
     </div>
 
-    <div class="dropdown2">
+    <div class="dropdown" id="dropdown-links">
         <button class="navBtn">Links</button>
-        <div class="dropdown-content2">
+        <div class="dropdown-content">
             <a href="https://github.com/rmohl" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/rachael-mohl" target="_blank">LinkedIn</a>
         </div>
