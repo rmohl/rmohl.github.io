@@ -156,7 +156,17 @@ body {
   background-color: white;
   border-radius: 25px;
   box-shadow: 2px 2px 20px #000;
-  min-width: 300px;
+  /* min-width: 500px; */
+}
+
+@media (max-width:900px) {
+  .content-box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: auto;
+  }
 }
 
 .coop-report-navbar {
