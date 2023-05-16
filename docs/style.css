@@ -160,7 +160,9 @@ body {
 
 .coop-report-navbar {
   display: flex;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 15px;
   align-items: center;
   margin-bottom: 50px;
 }
