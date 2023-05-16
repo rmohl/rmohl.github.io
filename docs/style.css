@@ -130,12 +130,9 @@ h2 {
   font-size: 1.3em;
 }
 
-.prevBtn {
-  float: left;
-}
-
-.nextBtn {
-  float: right;
+.next-prev-bar {
+  display: flex;
+  justify-content: space-between;
 }
 
 .next-prev-bar button{
