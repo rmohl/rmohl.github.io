@@ -9,7 +9,7 @@ document.write(`
     </div>
 
     <div class="op2">
-        <a href="media/resume.pdf"><button class="resumeBtn">Resume</button></a>
+        <a href="../media/resume.pdf"><button class="resumeBtn">Resume</button></a>
     </div>
 
     <div class="dropdown">
