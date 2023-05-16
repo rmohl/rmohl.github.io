@@ -61,7 +61,36 @@ body {
 #dropdown-coop:hover .dropdown-content {display: block;}
 #dropdown-links:hover .dropdown-content {display: block;}
 
-/* CONTENT PAGES */
+/* CONTENT PAGE */
+
+/* navbar */
+
+.coop-report-navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.coop-report-navbar button {
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.coop-report-navbar button:hover {background-color: #293241; color: #f1f1f1;}
+
+#selectedBtn {
+  background-color: #293241;
+  color: #f1f1f1;
+}
+
+/* content */
 
 .content-box {
   margin-top: 35px;
@@ -91,31 +120,6 @@ body {
   }
 }
 
-.coop-report-navbar {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  gap: 15px;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.coop-report-navbar button {
-  border: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 10pt;
-  padding: 20px;
-  border-radius: 10px;
-  font-weight: bold;
-}
-
-#selectedBtn {
-  background-color: #293241;
-  color: #f1f1f1;
-}
-
-.coop-report-navbar button:hover {background-color: #293241; color: #f1f1f1;}
-
 .content {
   margin-top: 50px;
   margin-bottom: 35px;
@@ -129,6 +133,8 @@ h1 {
 h2 {
   font-size: 1.3em;
 }
+
+/* bottom navbar */
 
 .next-prev-bar {
   display: flex;
@@ -147,28 +153,47 @@ h2 {
 
 .next-prev-bar button:hover {background-color: #f1f1f1;}
 
-#ack-con-first-pic {
+/* OTHER IMAGES */
+
+.full-width-pic {
   margin: 20px;
-  margin-top: 50px;
-  width: 98%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 98%;
+  display: block;
+  border: none;
 }
 
-#ack-con-next-pic {
-  margin: 20px;
-  width: 98%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-  display: block;
+.full-width-pic-border {
+  margin: 30px;
   margin-left: auto;
   margin-right: auto;
+  width: 98%;
+  display: block;
+  border: 5px solid #262f3e;
+  border-radius: 20px;
 }
 
-/* S21 */
+.right-pic {
+  margin: 10px;
+  margin-right: 0px;
+  margin-left: 30px;
+  width: 45%;
+  float: right;
+  border: none;
+}
+
+.right-pic-border {
+  margin: 10px;
+  margin-right: 0px;
+  margin-left: 30px;
+  width: 45%;
+  float: right;
+  border: 5px solid #262f3e;
+  border-radius: 20px;
+}
+
+/* S21 IMAGES */
 
 #wchospital {
   margin: 10px;
@@ -201,7 +226,7 @@ h2 {
  width: 28%;
 }
 
-/* F21 */
+/* F21 IMAGES */
 
 #magnetlogo {
   margin: 30px;
@@ -210,17 +235,6 @@ h2 {
   margin-bottom: 40px;
   float: right;
   width: 45%;
-}
-
-#jadam {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  width: 98%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #mf-awards {
@@ -256,59 +270,7 @@ h2 {
   border-radius: 20px;
 }
 
-#hero {
-  margin-top: 0px;
-  padding: 0;
-  position: relative;
-  background: transparent;
-  z-index: 0;
-  width: 100vw;
-  height: 93.5vh;
-  overflow: hidden;
-}
-
-#hero-text {
-  font-family: 'Oswald', sans-serif;
-  position: absolute;
-  top: 15%;
-  left: 1%;
-  width: 100%;
-  height: 50%;
-  color: white;
-}
-
-#hero-text > div {
-  font-weight: 500;
-  max-width: 90%;
-  margin: 0 auto;
-  font-size: 6rem;
-}
-
-#hero-baby-text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18pt;
-  line-height: 2;
-}
-
-/* S22 */
-
-#thorn {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 98%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#uog-engineering {
-  width: 98%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* S22 IMAGES */
 
 #mo-big {
   margin: 30px;
@@ -343,11 +305,3 @@ h2 {
    margin-bottom: 20px;
    width: 55%;
  }
-
-#nrc {
-  margin-top: 25px;
-  width: 98%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
