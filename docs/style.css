@@ -107,16 +107,16 @@ body {
   background-color: white;
   border-radius: 25px;
   box-shadow: 2px 2px 20px #000;
-  /* min-width: 500px; */
 }
 
-@media (max-width:900px) {
+@media (max-width:1050px) {
   .content-box {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 3%;
     margin-right: 3%;
     width: auto;
+    min-width: none;
   }
 }
 
@@ -153,7 +153,7 @@ h2 {
 
 .next-prev-bar button:hover {background-color: #f1f1f1;}
 
-/* OTHER IMAGES */
+/* GENERAL IMAGES */
 
 .full-width-pic {
   margin: 20px;
@@ -193,30 +193,17 @@ h2 {
   border-radius: 20px;
 }
 
-/* S21 IMAGES */
-
-#wchospital {
+.right-pic-25-border {
   margin: 10px;
   margin-right: 0px;
   margin-left: 30px;
+  width: 25%;
   float: right;
-  width: 45%;
-  /* height: 200px; */
-  max-height: 500px;
   border: 5px solid #262f3e;
   border-radius: 20px;
 }
 
-#dr-emily-stowe {
-  margin: 30px;
-  margin-right: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  float: right;
-  width: 45%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-}
+/* S21 IMAGES */
 
 #covax {
  width: 70%;
@@ -228,43 +215,15 @@ h2 {
 
 /* F21 IMAGES */
 
-#magnetlogo {
-  margin: 30px;
-  margin-right: 0px;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  float: right;
-  width: 45%;
-}
-
-#mf-awards {
-  margin: 30px;
-  margin-right: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  float: right;
-  width: 50%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-}
-
 #js {
  width: 23%;
- margin-top: 20px;
- margin-bottom: 20px;
 }
 
 #redux {
  width: 25%;
- margin-top: 20px;
- margin-bottom: 20px;
 }
 
 #automate {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   width: 46%;
   border: 5px solid #262f3e;
   border-radius: 20px;
@@ -272,36 +231,20 @@ h2 {
 
 /* S22 IMAGES */
 
-#mo-big {
-  margin: 30px;
-  margin-right: 0px;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  float: right;
-  width: 25%;
-  border: 5px solid #262f3e;
-  border-radius: 20px;
-}
-
 #python {
   width: 17%;
-  margin-right: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
  }
 
  #pytorch {
   width: 13%;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
  }
 
  #ros {
-   margin-left: 25px;
-   margin-right: 0px;
-   margin-top: 20px;
-   margin-bottom: 20px;
    width: 55%;
+   margin-left: 2%;
+   margin-right: 2%;
  }
